@@ -1,0 +1,28 @@
+{
+  "name": "usermanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "mssql": "^6.2.3",
+    "node": "^14.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feldmanager/UserManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feldmanager/UserManager/issues"
+  },
+  "homepage": "https://github.com/Feldmanager/UserManager#readme"
+}
