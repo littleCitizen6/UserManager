@@ -8,12 +8,14 @@
     "express": "^4.17.1",
     "https": "^1.0.0",
     "mssql": "^6.2.3",
-    "node": "^14.13.0"
+    "node": "^14.13.0",
+    "nodemon": "^2.0.4",
+    "sessionmanager": "git+https://github.com/Feldmanager/SessionManager.git#basicModule"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
